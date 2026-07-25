@@ -1,7 +1,14 @@
 [package]
-name = "rust-template"
-version = "0.2.0"
+name = "dobby"
+version = "0.0.1"
 edition = "2024"
 rust-version = "1.85"
+description = "Structural merge for generated data: content from the export, order and formatting from the committed file"
+repository = "https://github.com/nullmonger/dobby"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+keywords = ["json", "merge", "diff", "cli"]
+categories = ["command-line-utilities", "development-tools"]
+include = ["src/**", "README.md", "LICENSE-MIT", "LICENSE-APACHE"]
 
 [dependencies]
