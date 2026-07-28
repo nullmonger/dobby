@@ -1,0 +1,4 @@
+{
+  "fields": [{ "id": "a1", "label": "Name" }, { "id": "c3", "label": "Phone" }, { "id": "d4", "label": "Country" }],
+  "scalars": [1, 3]
+}

@@ -1,0 +1,6 @@
+{
+  "first": [],
+  "second": [
+    { "id": "b2", "label": "Email", "type": "email" }
+  ]
+}

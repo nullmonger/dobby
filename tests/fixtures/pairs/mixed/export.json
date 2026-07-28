@@ -1,0 +1,7 @@
+{
+  "fields": [
+    { "id": "c3", "label": "Mobile", "type": "text" },
+    { "id": "d4", "label": "Country", "type": "select" },
+    { "id": "a1", "label": "Name", "type": "text" }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "fields": [
+    { "id": "a1", "label": "Name", "type": "text" }
+  ]
+}

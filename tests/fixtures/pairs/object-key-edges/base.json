@@ -1,0 +1,15 @@
+{
+  "first": {
+    "drop": "gone",
+    "keep": "here",
+    "tail": "here too"
+  },
+  "last": {
+    "keep": "here",
+    "drop": "gone"
+  },
+  "sole": {
+    "drop": "gone"
+  },
+  "inline": { "drop": "gone", "keep": "here" }
+}

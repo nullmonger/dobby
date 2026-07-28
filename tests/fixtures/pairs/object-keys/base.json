@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "title": "Contact form",
+  "fields": [
+    { "id": "a1", "label": "Name", "type": "text", "deprecated": true },
+    { "id": "b2", "label": "Email", "type": "email" }
+  ]
+}

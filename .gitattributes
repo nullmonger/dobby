@@ -1,0 +1,4 @@
+* text=auto
+
+# Byte-exact fixtures: line endings, BOM and final newline are under test.
+tests/fixtures/** -text

@@ -1,0 +1,5 @@
+{
+  "fields": [
+    { "id": "a1", "count": 1e3, "letter": "\u0041", "path": "a\/b" }
+  ]
+}

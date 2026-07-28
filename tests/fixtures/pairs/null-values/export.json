@@ -1,0 +1,6 @@
+{
+  "fields": [
+    { "id": "a1", "value": "set", "enabled": true },
+    { "id": "b2", "value": null, "enabled": false }
+  ]
+}

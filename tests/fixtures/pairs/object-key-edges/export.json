@@ -1,0 +1,11 @@
+{
+  "first": {
+    "keep": "here",
+    "tail": "here too"
+  },
+  "last": {
+    "keep": "here"
+  },
+  "sole": {},
+  "inline": { "keep": "here" }
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Contact form",
+  "fields": [
+    { "type": "text", "id": "a1", "label": "Name", "required": false },
+    { "id": "b2", "label": "Email", "type": "email", "placeholder": "you@example.com" }
+  ],
+  "version": 4
+}

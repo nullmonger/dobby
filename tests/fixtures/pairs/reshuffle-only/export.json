@@ -1,0 +1,7 @@
+{
+  "fields": [
+    { "type": "email", "id": "b2", "label": "Email" },
+    { "label": "Phone", "type": "text", "id": "c3" },
+    { "id": "a1", "type": "text", "label": "Name" }
+  ]
+}

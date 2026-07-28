@@ -7,7 +7,7 @@ pub struct Cli {
     pub command: Command,
 }
 
-#[derive(Debug, Subcommand)]
+#[derive(Subcommand)]
 pub enum Command {
     /// Graft an export into a base file, keeping its order and formatting
     Merge,
@@ -15,4 +15,14 @@ pub enum Command {
     Diff,
     /// Rewrite a file in canonical form
     Format,
+}
+
+impl Command {
+    pub fn verb(&self) -> &'static str {
+        match self {
+            Command::Merge => "merge",
+            Command::Diff => "diff",
+            Command::Format => "format",
+        }
+    }
 }

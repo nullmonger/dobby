@@ -1,0 +1,34 @@
+{
+  "groups": [
+    {
+      "key": "main",
+      "label": "Main",
+      "fields": [
+        {
+          "key": "name",
+          "label": "Name",
+          "type": "text",
+          "rules": [
+            [
+              { "field": "kind", "operator": "==", "value": "person" }
+            ]
+          ]
+        },
+        {
+          "key": "children",
+          "label": "Children",
+          "type": "repeater",
+          "sub_fields": [
+            { "key": "child_name", "label": "Child name", "type": "text" },
+            { "key": "child_age", "label": "Child age", "type": "number" }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "extra",
+      "label": "Extra",
+      "fields": []
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "quote": "a \" b",
+  "backslash": "a \\ b",
+  "slash": "a \/ b",
+  "control": "tab \t newline \n return \r backspace \b formfeed \f",
+  "unicodeEscape": "\u0041\u00e9\u4e2d",
+  "surrogatePair": "\ud83d\ude80",
+  "literalAndEscaped": "é vs \u00e9",
+  "empty": ""
+}

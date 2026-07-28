@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "label": "Extra",
+      "key": "extra",
+      "fields": []
+    },
+    {
+      "key": "main",
+      "label": "Main",
+      "fields": [
+        {
+          "key": "children",
+          "label": "Children",
+          "type": "repeater",
+          "sub_fields": [
+            { "key": "child_age", "label": "Age", "type": "number" },
+            { "key": "child_note", "label": "Note", "type": "text" },
+            { "key": "child_name", "label": "Child name", "type": "text" }
+          ]
+        },
+        {
+          "key": "name",
+          "label": "Name",
+          "type": "text",
+          "rules": [
+            [
+              { "field": "kind", "operator": "==", "value": "person" },
+              { "field": "active", "operator": "==", "value": true }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

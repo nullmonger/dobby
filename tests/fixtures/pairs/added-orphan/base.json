@@ -1,0 +1,5 @@
+{
+  "fields": [
+    { "id": "x9", "label": "Legacy", "type": "text" }
+  ]
+}

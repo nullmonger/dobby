@@ -1,0 +1,6 @@
+{
+  "fields": [
+    { "id": "a1", "label": "Name", "tags": ["one"] },
+    { "id": "b2", "label": { "en": "Email", "ru": "Почта" } }
+  ]
+}

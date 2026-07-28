@@ -1,0 +1,11 @@
+{
+  "exp": 1e3,
+  "expUpperPlus": 1E+3,
+  "expMinus": 1.5E-7,
+  "negZero": -0.0,
+  "padded": 0.1000,
+  "beyondF64": 12345678901234567890,
+  "long": 0.30000000000000004,
+  "negative": -42,
+  "zero": 0
+}

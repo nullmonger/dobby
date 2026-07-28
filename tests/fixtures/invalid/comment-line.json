@@ -1,0 +1,4 @@
+{
+  // a line comment is JSONC, not JSON
+  "id": "a1"
+}

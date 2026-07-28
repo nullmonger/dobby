@@ -1,0 +1,15 @@
+{
+  "compact": { "id": "a1", "label": "Name" },
+  "expanded": {
+    "id": "b2",
+    "label": "Email"
+  },
+	"tabbed": {
+		"id": "c3"
+	},
+  "inlineArray": [1, 2, 3],
+  "blockArray": [
+    1,
+    2
+  ]
+}

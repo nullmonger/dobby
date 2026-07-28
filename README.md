@@ -1,7 +1,7 @@
 # dobby
 
 Structural merge for generated data.
-`dobby merge base.json export.json` grafts a fresh export into the committed version of a file:
+`dobby merge --id id base.json export.json` grafts a fresh export into the committed version of a file:
 content comes from the export, order and formatting come from the base file.
 The git diff then shows the real changes instead of the generator's reshuffling.
 
@@ -22,10 +22,9 @@ dobby splits the sources of truth.
 The committed file owns order and style, the incoming export owns content.
 Array elements are matched by a stable id regardless of position,
 and the resulting delta (added / removed / modified) is spliced into the base file without rewriting it.
-Untouched regions stay byte for byte: element and key order, indentation, line breaks,
-number representation.
-New elements are placed by a selectable strategy, with a fallback chain for the cases
-where the placement cannot be derived from the export.
+Untouched regions stay byte for byte: element and key order, indentation, line breaks, number representation.
+New elements are placed by a selectable strategy,
+with a fallback chain for the cases where the placement cannot be derived from the export.
 
 Planned verbs:
 

@@ -1,0 +1,15 @@
+{
+  "fields": [
+    {
+      "id": "g1",
+      "label": "Contact",
+      "type": "group",
+      "sub_fields": [
+        { "id": "g1.2", "label": "Town", "type": "text" },
+        { "id": "g1.3", "label": "Zip", "type": "text" },
+        { "id": "g1.1", "label": "Street", "type": "text" }
+      ]
+    },
+    { "id": "b2", "label": "Email", "type": "email" }
+  ]
+}
