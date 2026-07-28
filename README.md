@@ -21,7 +21,7 @@ so sorting changes what the consumer of the data sees.
 dobby splits the sources of truth.
 The committed file owns order and style, the incoming export owns content.
 Array elements are matched by a stable id regardless of position,
-the delta (added / removed / modified) is computed and spliced into the base file as text.
+and the resulting delta (added / removed / modified) is spliced into the base file without rewriting it.
 Untouched regions stay byte for byte: element and key order, indentation, line breaks,
 number representation.
 New elements are placed by a selectable strategy, with a fallback chain for the cases
