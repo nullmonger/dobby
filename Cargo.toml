@@ -15,4 +15,4 @@ include = ["src/**", "README.md", "LICENSE-MIT", "LICENSE-APACHE"]
 clap = { version = "4.6.4", features = ["derive"] }
 
 [dev-dependencies]
-rstest = "0.26.1"
+rstest = "0.28.0"
